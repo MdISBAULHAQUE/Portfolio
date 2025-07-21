@@ -41,24 +41,24 @@ form {
   gap: 30px;
   border-radius: 20px;
 }
-form:hover{
-  box-shadow: 2px 2px 10px rgb(34, 220, 241); ;
+form:hover {
+  box-shadow: 2px 2px 10px rgb(34, 220, 241);
 }
-form input{
-    width: 80%;
-    height: 50px;
-    border: 2px solid rgb(34, 220, 241);
-    border-radius: 20px;
-    padding: 20px;
+form input {
+  width: 80%;
+  height: 50px;
+  border: 2px solid rgb(34, 220, 241);
+  border-radius: 20px;
+  padding: 20px;
 }
-#textarea{
-    width: 80%;
-    height: 100px;
-    border: 2px solid rgb(34, 220, 241);
-    border-radius: 20px;
-    padding: 20px;
+#textarea {
+  width: 80%;
+  height: 100px;
+  border: 2px solid rgb(34, 220, 241);
+  border-radius: 20px;
+  padding: 20px;
 }
-#btn{
+#btn {
   width: 100px;
   height: 50px;
   background-color: aqua;
@@ -69,23 +69,19 @@ form input{
   padding: 0;
   transition: all 0.3s;
 }
-#btn:hover{
-background: transparent;
-color: aqua;
+#btn:hover {
+  background: transparent;
+  color: aqua;
 }
 
-@media (max-width:750px) {
-  #contact{
-    flex-direction: column;
-  }
-  .left{
-    width: 100px;
-    height: 50vh;
-  }
-  .right{
-    width: 100px;
-  }
+@media (max-width: 750px) {
   .left img {
-    width: 70%;
+    width: 60%;
+  }
+
+  form {
+    width: 95%;
+    height: auto;
   }
 }
+

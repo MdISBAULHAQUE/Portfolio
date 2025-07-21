@@ -20,7 +20,12 @@ const Home = () => {
               cursor="|"
             />
           </div>
-          <button>HIRE ME</button>
+          <button onClick={() => {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+}}>
+  HIRE ME
+</button>
+
         </div>
       </div>
 
