@@ -19,3 +19,19 @@
   scrollbar-width: none;
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  #project {
+    height: auto;
+    padding: 20px 0;
+  }
+  
+  .slider {
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+    overflow-x: visible;
+    gap: 20px;
+    padding: 10px;
+  }
+}
