@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import TypingEffect from "react-typing-effect"; // Correct import
-import pic from "../../../picture/mpic.jpeg";
+import pic from "../../../picture/poPic.jpeg";
 
 const Home = () => {
   return (

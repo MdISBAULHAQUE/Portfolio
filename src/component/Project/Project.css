@@ -8,16 +8,12 @@
   gap: 30px;
 }
 .slider {
-  display: flex;
-  height: 2 00vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 90%;
-  justify-content: center;
-  align-items: center;
-  overflow-x: scroll;
-  overflow-y: hidden;
   gap: 30px;
-  scrollbar-width: none;
   padding: 20px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -27,10 +23,8 @@
   }
   
   .slider {
-    flex-direction: column;
-    height: auto;
+    grid-template-columns: 1fr;
     width: 95%;
-    overflow-x: visible;
     gap: 20px;
     padding: 10px;
   }

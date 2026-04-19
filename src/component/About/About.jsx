@@ -4,6 +4,7 @@ import Card from "../card/Card";
 import mern from "../../../picture/mern.png";
 import java from "../../../picture/java.png";
 import dsa from "../../../picture/dsa.png";
+import ml from "../../../picture/ML.webp"
 const About = () => {
   return (
     <div id="about">
@@ -60,6 +61,7 @@ const About = () => {
       </div>
       <div className="rightabout">
         <Card title="MERN STACK WEB DEVELOPER" image={mern} />
+         <Card title="Machine Learning" image={ml} />
         <Card title="JAVA" image={java} />
         <Card title="DSA" image={dsa} />
       </div>

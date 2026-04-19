@@ -6,6 +6,8 @@ import va from "../../../picture/va.png";
 import tti from "../../../picture/tti.png";
 import m from "../../../picture/medical.jpeg";
 import task from "../../../picture/pic-banner.webp";
+import boi from "../../../picture/boi.png";
+import BC from "../../../picture/BrCan.jpg";
 
 const Project = () => {
   return (
@@ -18,7 +20,24 @@ const Project = () => {
           image={va}
           onClick={() => window.open("https://zita-ai.netlify.app/", "_blank")}
         />
-        <Card title=" AI Text To Images" image={tti} onClick={() => window.open('https://textureai.netlify.app/', '_blank')} />
+        <Card
+          title=" AI Text To Images"
+          image={tti}
+          onClick={() =>
+            window.open("https://textureai.netlify.app/", "_blank")
+          }
+        />
+        <Card title="Boi-Para" image={boi} />
+        <Card
+          title="Breast Cancer Classification"
+          image={BC}
+          onClick={() =>
+            window.open(
+              "https://github.com/MdISBAULHAQUE/Breast-cancer",
+              "_blank"
+            )
+          }
+        />
       </div>
     </div>
   );
